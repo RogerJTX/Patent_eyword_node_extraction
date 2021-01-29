@@ -20,8 +20,8 @@ from tqdm import tqdm, trange
 configure_logging("TRIE_TDIDF")  # 日志文件名
 logger = logging.getLogger("spider")
 
-client = pymongo.MongoClient('192.168.1.37', 27017)
-client.admin.authenticate("data_factory", "data_factory_sjzn01")
+client = pymongo.MongoClient('xxx', 0)
+client.admin.authenticate("xxx", "xxx")
 db = client.yyf_db
 mongo_col_patent = db.res_kb_technology_system_patent
 
