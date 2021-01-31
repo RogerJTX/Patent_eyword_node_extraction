@@ -22,8 +22,8 @@ logger = logging.getLogger("spider")
 
 client = pymongo.MongoClient('xxx', 0)
 client.admin.authenticate("xxx", "xxx")
-db = client.yyf_db
-mongo_col_patent = db.res_kb_technology_system_patent
+db = client.xxx
+mongo_col_patent = db.xxx
 
 class TrieNode(object):
     def __init__(self, value=None, count=0, parent=None):
